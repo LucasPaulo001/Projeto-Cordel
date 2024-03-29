@@ -30,13 +30,26 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
 section.normal{
     background-color: white;
     color: black;
 }
 
+section.imagem{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
 
+section.imagem > p{
+    width: 400px;
+    background-color: rgb(19, 19, 19);
+}
 footer{
     background-color: black;
     text-align: center;
